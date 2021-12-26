@@ -7,6 +7,7 @@ import com.stream.payment.vo.R;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -22,6 +23,7 @@ import java.util.List;
  * @author stream
  * @since 2021-12-26
  */
+@CrossOrigin
 @RestController
 @Api(tags = "商品管理")
 @RequestMapping("/api/product")
